@@ -26,6 +26,8 @@
 
 /public/assets
 .byebug_history
+# Ignore Spring files.
+
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
