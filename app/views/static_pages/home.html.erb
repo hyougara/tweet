@@ -1,7 +1,15 @@
-<h1>tweet app</h1>
-<p>
-  This is the home page for the
-  <a href="https://railstutorial.jp/">Ruby on Rails Tutorial</a>
-  sample application.
-</p>
-<p>これからtweet appを作っているよ！</p>
+<div class="center jumbotron">
+  <h1>tweet app</h1>
+
+  <h2>
+    This is the home page for the
+    <a href="https://railstutorial.jp/">Ruby on Rails Tutorial</a>
+    sample application.
+  </h2>
+
+  <p>これからtweet appを作っていくよ！</p>
+
+  <%= link_to "sign up now!", signup_path, class:"btn btn-lg btn-success" %>
+</div>
+<%= link_to image_tag("rails.png", alt: "Rails logo"),
+            'http://rubyonrails.org/' %>
