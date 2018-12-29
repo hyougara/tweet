@@ -6,6 +6,8 @@ ruby '2.5.0'
 
 gem 'rails', '~> 5.2.2'
 gem 'bootstrap-sass', '3.3.7'
+gem "jquery-ui-rails"
+gem "jquery-rails"
 
 # Use sqlite3 as the database for Active Record
 # Use Puma as the app server
