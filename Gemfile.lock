@@ -84,6 +84,8 @@ GEM
     crass (1.0.4)
     erubi (1.8.0)
     execjs (2.7.0)
+    faker (1.9.1)
+      i18n (>= 0.7)
     ffi (1.9.25)
     formatador (0.2.5)
     globalid (0.4.1)
@@ -113,6 +115,9 @@ GEM
       thor (>= 0.14, < 2.0)
     jquery-ui-rails (6.0.1)
       railties (>= 3.2.16)
+    kaminari (0.17.0)
+      actionpack (>= 3.0.0)
+      activesupport (>= 3.0.0)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -249,11 +254,13 @@ DEPENDENCIES
   capybara (>= 2.15)
   chromedriver-helper
   coffee-rails (~> 4.2)
+  faker
   guard (= 2.13.0)
   guard-minitest (= 2.4.4)
   jbuilder (~> 2.5)
   jquery-rails
   jquery-ui-rails
+  kaminari (~> 0.17.0)
   listen (>= 3.0.5, < 3.2)
   minitest
   minitest-reporters (= 1.1.14)

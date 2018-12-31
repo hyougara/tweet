@@ -1,0 +1,10 @@
+<% provide(:title, "ユーザー一覧")%>
+<h1>ユーザー一覧</h1>
+
+  <%= page_entries_info @users %>
+  <br>
+  <%= paginate @users %>
+<ul class="users">
+  <%= render @users%>
+</ul>
+<%= paginate @users %>
