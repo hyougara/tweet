@@ -10,7 +10,8 @@ gem "jquery-ui-rails"
 gem "jquery-rails"
 gem 'kaminari', '~> 0.17.0'
 gem 'carrierwave',             '1.2.2'
-gem 'mini_magick',             '4.7.0'
+gem 'mini_magick',             '4.7.0'  
+gem 'faker'
 # Use sqlite3 as the database for Active Record
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
@@ -43,7 +44,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 group :development, :test do
   gem 'sqlite3'
-  gem 'faker'
+
 
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
