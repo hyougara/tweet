@@ -62,7 +62,7 @@ end
 
 group :production do
   gem 'pg'
-  # gem 'fog', '1.42'
+  gem 'fog'
 end
 
 group :test do
